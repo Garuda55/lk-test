@@ -1,0 +1,276 @@
+/* ========================================== Header & Main-menu ========================================== */
+.logo {
+  margin-left: 44px;
+  margin-top: 33px;
+}
+.bankdash {
+  width: 95%;
+}
+.main-menu {
+  width: 100%;
+}
+.main-menu {
+  margin-left: 50px;
+  margin-top: 80px;
+}
+.menu-duble {
+  margin-top: 120px !important;
+}
+
+.form-inline {
+  /* margin-left: 730px; */
+  margin-left: auto;
+}
+.menu-line {
+  display: inline;
+}
+.m-text {
+  font-size: 22px;
+  color: #b1b1b1;
+  margin-left: 24px;
+}
+.menu-line:hover {
+  color: blue;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ico {
+  padding-bottom: 10px;
+  width: 10%;
+  text-decoration: none;
+}
+.ico-duble {
+  width: 3%;
+}
+.avatar {
+  margin-right: 44px;
+}
+.text {
+  color: #b1b1b1;
+  font-size: 22px;
+  margin-left: 20px;
+}
+.navbar {
+  height: 100px;
+}
+.left-block {
+  border: 1px solid #ced4da80;
+}
+
+.btn {
+  border-radius: 30px 0 0 30px;
+  border-style: none;
+  background-color: #f5f7fa;
+  height: 50px;
+  color: #b1b1b1;
+}
+
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+}
+.form-control {
+  border-radius: 0 30px 30px 0;
+  border-style: none;
+  background-color: #f5f7fa;
+  height: 50px;
+}
+input[type="search"]::-webkit-input-placeholder {
+  color: #8ba3cb;
+  padding-right: 15px;
+  font-size: 18px;
+}
+input[type="search"]::-moz-placeholder {
+  color: #8ba3cb;
+}
+.fa-2x {
+  font-size: 23px;
+  margin-right: -8px;
+  padding-left: 17px;
+}
+.fa-2x:hover {
+  color: #718ebf;
+}
+
+.bg-area {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f5f7fa;
+}
+.bg-area:hover {
+  background-color: #718ebf;
+}
+.fa-gear {
+  font-size: 23px;
+  margin: auto;
+  color: #b1b1b1;
+}
+.nav-link {
+  /* padding-right: .5rem; */
+  padding-left: 26% !important;
+  padding-top: 24% !important;
+}
+.navbar-nav {
+  margin-left: 25px;
+  margin-right: 25px !important;
+}
+.qwe {
+  margin-left: 30px;
+}
+.navbar-brand {
+  font-size: 34px;
+  font-weight: 700;
+  margin-left: 44px;
+}
+.navbar-toggler {
+  margin-left: 44px;
+  border-style: none;
+}
+.form-duble {
+  width: 60%;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* ========================================== Header & Main-menu end ========================================== */
+
+/* ------------------------------------------------------- */
+@media (max-width: 1604px) {
+  .form-inline {
+    /* margin-left: 520px; */
+    margin-left: auto;
+  }
+  .avatar {
+    margin-left: 27px;
+  }
+  .main-menu {
+    margin-left: 20px;
+  }
+  .bankdash {
+    margin-left: -25px;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 1597px) {
+  .form-inline {
+    margin-left: auto;
+  }
+  .avatar {
+    margin-left: 0;
+  }
+  .navbar-nav {
+    margin-right: auto;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 1340px) {
+  .main-menu {
+    margin-top: 50px;
+    margin-left: 10px;
+  }
+  .m-text {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  .bankdash {
+    width: 129%;
+    margin-left: -37px;
+  }
+  .navbar-brand {
+    font-size: 27px;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 991px) {
+  .col-md-10 {
+    display: none;
+  }
+  .form-control {
+    margin-top: -23px;
+    width: 50% !important;
+    text-align: left;
+  }
+  .btn {
+    margin-top: -23px !important;
+  }
+  .avatar {
+    width: 45%;
+  }
+  .navbar-brand {
+    font-size: 25px;
+    margin: auto;
+  }
+  .navbar-nav {
+    display: none;
+  }
+  .left-block {
+    display: none;
+  }
+  .col-md-12 {
+    max-width: 100%;
+  }
+  .form-duble {
+    width: 100%;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 575px) {
+  .btn {
+    margin-top: -15px !important;
+  }
+  .ico-duble {
+    width: 4%;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 500px) {
+  .navbar-toggler {
+    margin-left: 1px;
+    font-size: 18px;
+  }
+  .avatar {
+    width: 67%;
+    margin-right: 0;
+  }
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .form-control {
+    margin-top: -29px;
+    width: 77% !important;
+    height: 40px;
+  }
+  .btn {
+    margin-top: -21px !important;
+    height: 40px;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media (max-width: 430px) {
+  .ico-duble {
+    width: 7%;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media screen and (max-width: 100%) {
+  .col-md-12 {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 992px) {
+  .col-md-12 {
+    visibility: hidden;
+  }
+}
+
+/* * {
+  outline: 4px solid green !important;
+} */

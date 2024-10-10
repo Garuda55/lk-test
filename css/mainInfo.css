@@ -1,0 +1,247 @@
+.personal-info {
+  background-color: #f5f7fa;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 200px;
+}
+
+.personal-info-block {
+  width: 100%;
+  height: 700px;
+  border-radius: 30px;
+  background-color: white;
+  padding-top: 36px;
+}
+.form-personal {
+  border-radius: 15px !important;
+  border: 2px solid #dfeaf2 !important;
+  background-color: #ffffff !important;
+  /* height: 50px; */
+}
+.sub-nav {
+  margin-left: 50px;
+}
+.nav-item-b {
+  margin-left: 100px;
+}
+.nav-link-b {
+  position: relative;
+  font-size: 19px;
+  font-weight: 700;
+  color: #718ebf;
+}
+
+.nav-link-b:after {
+  display: block;
+  position: absolute;
+  left: -15px; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+  width: 0; /*задаём длинну линии до наведения курсора*/
+  height: 3px; /*задаём ширину линии*/
+  background-color: #1814f3; /*задаём цвет линии*/
+  content: "";
+
+  transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.nav-link-b:hover:after,
+.nav-link-b:focus:after {
+  width: 130%;
+}
+.nav-link-b:hover {
+  color: #1814f3;
+  text-decoration: none;
+}
+
+.form-block {
+  padding-right: 30px;
+}
+.profile-label {
+  margin-left: 20px;
+}
+.main-avatar {
+  width: 73%;
+}
+.save-btn-block {
+  text-align: right;
+}
+.save-btn {
+  width: 190px;
+  height: 50px;
+  border-radius: 15px;
+  border-style: none;
+  background-color: #1814f3;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: #8ba3cb;
+  padding-right: 15px;
+  font-size: 18px;
+}
+input[type="text"]::-moz-placeholder {
+  color: #8ba3cb;
+}
+button {
+  border-style: none;
+  background-color: rgba(245, 245, 220, 0);
+}
+.personal-info-duble {
+  height: 100px !important;
+}
+
+@media (max-width: 1200px) {
+  .main-avatar {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .form-block {
+    display: block !important;
+  }
+  .personal-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 150px;
+  }
+  .personal-info-duble {
+    height: auto !important;
+  }
+  .sub-nav {
+    margin-left: 0;
+    padding: 3px 35px;
+  }
+  .nav-item-b {
+    margin: auto;
+  }
+  .nav-item-b {
+    margin: auto;
+  }
+  .form-personal {
+    width: 100% !important;
+  }
+  label {
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .profile-label {
+    text-align: center;
+    margin-left: 0;
+  }
+  .main-avatar {
+    width: 40%;
+  }
+  .form-block {
+    margin-top: 40px;
+  }
+  .personal-info-block {
+    height: 1005px;
+  }
+}
+
+@media (max-width: 540px) {
+  .nav-link-b {
+    font-size: 16px;
+  }
+  .sub-nav {
+    margin-left: 0;
+    padding: 3px 0px;
+  }
+  .personal-info-block {
+    padding-top: 25px;
+    height: auto;
+  }
+  .nav-link-b {
+    font-size: 14px;
+  }
+  .main-avatar {
+    width: 67%;
+  }
+  .row {
+    display: inline;
+  }
+  .form-block {
+    margin-top: 0px;
+    padding: 1px;
+  }
+  .b-col {
+    margin-top: 25px;
+  }
+  .save-btn-block {
+    text-align: center;
+  }
+  .save-btn {
+    width: 96%;
+  }
+}
+@media (max-width: 400px) {
+  .mt-5,
+  .my-5 {
+    margin-top: 1rem !important;
+  }
+  .col {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form-personal {
+    border-radius: 10px !important;
+  }
+  .form-control {
+    height: 35px;
+  }
+  input[type="text"]::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  .save-btn {
+    height: 35px;
+    border-radius: 10px;
+  }
+  .save-btn-block {
+    margin-top: -25px;
+  }
+  .container-fluid {
+    margin-top: -26px;
+  }
+  .navbar {
+    padding: 0;
+  }
+}
+@media (max-width: 400px) {
+  .avatar {
+    margin-right: -12px;
+  }
+  .container-fluid {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .form-control-search {
+    width: 74% !important;
+  }
+  input[type="search"]::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  .btn {
+    height: 35px;
+  }
+  .form-duble {
+    margin-bottom: -5px !important;
+  }
+  .mt-5 {
+    margin-top: -5px !important;
+  }
+}
+
+/* ------------------------------------------------------- */
+@media screen and (max-width: 100%) {
+  .personal-info-duble {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 992px) {
+  .personal-info-duble {
+    visibility: hidden;
+  }
+}
+
+
